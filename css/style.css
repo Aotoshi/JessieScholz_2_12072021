@@ -1,0 +1,19 @@
+@font-face {
+    font-family:'Raleway-Black' ;
+    src: url(font/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway-Medium';
+    src: url(font/Raleway-Medium.ttf);
+}
+
+h1
+{
+        font-family: 'Raleway-Black', Arial, Helvetica, sans-serif;
+}
+
+p
+{
+    font-family: 'Raleway-Medium', Arial, Helvetica, sans-serif;
+}
