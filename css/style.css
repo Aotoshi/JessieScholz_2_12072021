@@ -11,9 +11,18 @@
 h1
 {
         font-family: 'Raleway-Black', Arial, Helvetica, sans-serif;
+        font-size: large;
 }
 
 p
 {
     font-family: 'Raleway-Medium', Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+
+section
+{
+    border: 10px solid #F2F2F2;
+    border-radius: 10px;
+    background-color: #F2F2F2;
 }
