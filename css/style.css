@@ -35,10 +35,17 @@ p
     margin-top: 1em;
 }
 
+ul
+{
+    list-style: none;
+    margin-top: 25px;
+}
+
 li
 {
     font-family: 'Raleway-Medium', Arial, Helvetica, sans-serif;
     font-size: medium;
+    margin: 10px;
 }
 
 a
@@ -51,7 +58,8 @@ a
 
 a:hover
 {
-    color: #0065FC
+    color: #0065FC;
+    text-decoration-line: overline;
 }
 
 em
@@ -60,27 +68,19 @@ em
    font-weight:bold; 
 }
 
-
-section
-{
-    border: 10px solid #F2F2F2;
-    border-radius: 10px;
-    background-color: #F2F2F2;
-}
-
 figure
 {
    border: 5px solid white; 
    border-radius: 10px;
    background-color: white;
-   margin: auto;
+   margin: 20px;
    box-shadow:#F2F2F2 ;
 }
 
 img
 {
-    width: 220px;
-    height: 150px;
+    width: 250px;
+    height: 170px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -90,7 +90,7 @@ figcaption
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
     font-size: large;
     text-align: left;
-    margin: 1em;
+    margin: auto;
 }
 
 .prix
@@ -148,7 +148,8 @@ input
     font-size: larger;
     font-weight: bold;
     color: black;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 .icons
 {
@@ -160,21 +161,69 @@ input
 {
     width:100px;
     height:47px;
-}
-
-aside
-{
-    float: right;
+    margin-top:25px;
 }
 
 nav
 {
     position:relative;
     display: inline;
-    float: right
+    float: right;
 }
 
 footer
 {
     background-color: #F2F2F2;
+}
+
+#menu
+{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+#logements
+{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.hebergement
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 25px;
+    border: 10px solid #F2F2F2;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+}
+
+.populaires
+{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    width: 120%;
+    border: 10px solid #F2F2F2;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+}
+
+#activites
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.articleactivites
+{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 25px;
+    flex-wrap: wrap;
 }
