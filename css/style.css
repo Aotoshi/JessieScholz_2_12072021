@@ -263,3 +263,15 @@ footer
 {
     border: solid 1px #F2F2F2;
 }
+
+.grey
+{
+display: inline;
+color: #DEEBFF;
+}
+
+.bluestar
+{
+    color:#0065FC;
+    display: inline;
+}
