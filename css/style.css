@@ -102,7 +102,7 @@ figure
     text-align: left;
 }
 
-button
+button[type="submit"]
 {
     float: left;
     height: 34px;
