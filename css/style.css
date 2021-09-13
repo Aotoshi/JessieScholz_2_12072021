@@ -232,13 +232,15 @@ footer
 {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .articleactivites
 {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     margin: 25px;
     flex-wrap: wrap;
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
@@ -279,4 +281,23 @@ color: #DEEBFF;
 {
     color:#0065FC;
     display: inline;
+}
+
+.vieuxport img
+{
+    height: 400px;
+    width: 250px;
+    background-size: cover;
+}
+
+.parcnat img
+{
+    height: 400px;
+    width: 250px;
+}
+
+.small
+{
+    display: flex;
+    flex-direction: column;
 }
