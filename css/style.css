@@ -8,13 +8,20 @@
     src: url(font/Raleway-Medium.ttf);
 }
 
-h1
+h1, h2, h3, h4
 {
         font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
         font-size: large;
         display: block;
         width: 100%;
 }
+
+h2, h3, h4
+{
+    margin-left: 20px;
+}
+
+
 
 p
 {
@@ -69,13 +76,13 @@ figure
    border-radius: 10px;
    background-color: white;
    margin: 20px;
-   box-shadow:#F2F2F2 ;
+   box-shadow: 3px 3px 3px 3px #d9d9d9
 }
 
 .hebergement img
 {
     width: 250px;
-    height: 170px;
+    height: 130px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     object-fit: cover;
@@ -186,6 +193,8 @@ span
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
 .logo
@@ -272,7 +281,7 @@ footer
 .figpop
 {
     display: flex;
-    width: 90%;
+    width: 80%;
 }
 
 .captionpop
@@ -282,7 +291,7 @@ footer
 
 .figpop img
 {
-    width: 220px;
+    width: 170px;
     height: 150px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
@@ -291,7 +300,10 @@ footer
 
 .articleactivites figure
 {
-    border: solid 1px #F2F2F2;
+    border: 5px solid white; 
+   border-radius: 10px;
+   background-color: white;
+   box-shadow:3px 3px 3px 3px#F2F2F2 ;
 }
 
 .grey
@@ -308,16 +320,22 @@ color: #DEEBFF;
 
 .vieuxport img
 {
-    height: 400px;
-    width: 250px;
+    height: 375px;
+    width: 320px;
     object-fit: cover;
 }
 
 .parcnat img
 {
-    height: 400px;
-    width: 250px;
+    height: 375px;
+    width: 320px;
     object-fit: cover;
+}
+
+.ilefrioul img, .notredame img
+{
+    height: 110px;
+    
 }
 
 .small
@@ -330,3 +348,19 @@ color: #DEEBFF;
 {
     padding: 9px 9px 9px 9px;
 }
+
+.articleactivites figcaption
+{
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.economyborder, .familyborder, .romanticborder, .animalborder
+{
+    border: 10px solid #DEEBFF;
+    background-color: #DEEBFF;
+    border-radius: 50%;
+}
+
+
