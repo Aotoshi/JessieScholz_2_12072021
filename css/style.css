@@ -361,6 +361,46 @@ color: #DEEBFF;
     border: 10px solid #DEEBFF;
     background-color: #DEEBFF;
     border-radius: 50%;
+    margin-right: 0px;
 }
 
+.eco, .family, .romantic, .animal
+{
+    border: 3px solid #F2F2F2;
+    padding: 10px;
+    padding-left: 50px;
+    border-radius: 50px;
 
+}
+.fa-heart
+{
+    position: absolute;
+    top: 233px;
+    left: 327px;
+}
+
+.fa-dog
+{
+    position: absolute;
+    top: 233px;
+    left: 488px;
+}
+
+.fa-child
+{
+    position: absolute; 
+    top: 233px;
+    left: 200px;
+}
+
+.fa-money-bill-wave
+{
+    position: absolute; 
+    top: 233px;
+    left: 35px;
+}
+
+.spanfiltre
+{
+    padding-right: 20px;
+}
