@@ -217,7 +217,7 @@ footer
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #menu
@@ -244,6 +244,8 @@ footer
     border: 10px solid #F2F2F2;
     border-radius: 10px;
     background-color: #F2F2F2;
+    margin-right: 50px;
+    margin-left: 20px;
 }
 
 .populaires
@@ -370,27 +372,28 @@ color: #DEEBFF;
     padding: 10px;
     padding-left: 50px;
     border-radius: 50px;
-
+    transition: all .5s linear;
+    border-width: 2px;
 }
 .fa-heart
 {
     position: absolute;
     top: 233px;
-    left: 327px;
+    left: 325px;
 }
 
 .fa-dog
 {
     position: absolute;
     top: 233px;
-    left: 488px;
+    left: 484px;
 }
 
 .fa-child
 {
     position: absolute; 
     top: 233px;
-    left: 200px;
+    left: 198px;
 }
 
 .fa-money-bill-wave
@@ -403,4 +406,10 @@ color: #DEEBFF;
 .spanfiltre
 {
     padding-right: 20px;
+}
+
+
+.animal:hover, .eco:hover, .family:hover, .romantic:hover
+{
+    background-color: #DEEBFF;
 }
