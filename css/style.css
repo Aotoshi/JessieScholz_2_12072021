@@ -8,6 +8,13 @@
     src: url(font/Raleway-Medium.ttf);
 }
 
+#global
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1500px
+}
+
 h1, h2, h3, h4
 {
         font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
@@ -221,6 +228,7 @@ footer
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    width: 100%;
 }
 
 #menu
@@ -421,14 +429,14 @@ color: #DEEBFF;
     padding-right: 20px;
 }
 
-#global
-{
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%
-}
-
 .margin
 {
     margin-left: 20px;
+}
+
+.nuit
+{
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
