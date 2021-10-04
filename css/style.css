@@ -57,7 +57,7 @@ a
     color:black ;
 }
 
-a:hover
+nav a:hover
 {
     color: #0065FC;
     text-decoration-line: overline;
@@ -90,7 +90,7 @@ figure
 
 .articleactivites img
 {
-    width: 250px;
+    width: 310px;
     height: 170px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -139,14 +139,17 @@ input
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     float: left;
+    margin-left: 20px;
 }
 
 .info
 {
     font-size: 1em;
     color:#0065FC;
-    margin-right: 0.5em;
+    margin-left: 20px;
+    margin-right: 10px;
     display: inline-block;
+
 }
 
 span
@@ -175,17 +178,16 @@ span
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: bold;
-    margin-top: 5em;
-    margin-bottom: 3em;
-    display: block
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    display: block;
 }
 
 .filter
 {
     font-size: larger;
     color:#0065FC;
-    margin-left: 2em;
-    margin-right: 1em;
 }
 
 .more
@@ -202,6 +204,7 @@ span
     width:100px;
     height:47px;
     margin-top:25px;
+    margin-left: 20px;
 }
 
 nav
@@ -225,6 +228,8 @@ footer
     display: flex;
     flex-wrap: nowrap;
     justify-content: flex-end;
+    margin-right: auto;
+    width: 65%
 }
 
 #logements
@@ -232,6 +237,7 @@ footer
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .hebergement
@@ -239,7 +245,7 @@ footer
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 50%;
+    width: 60%;
     margin: 10px;
     border: 10px solid #F2F2F2;
     border-radius: 10px;
@@ -274,10 +280,10 @@ footer
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 25px;
     flex-wrap: wrap;
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
     font-size: large;
+    margin-bottom: 50px;
 }
 
 .figpop
@@ -323,20 +329,21 @@ color: #DEEBFF;
 .vieuxport img
 {
     height: 375px;
-    width: 320px;
+    width: 310px;
     object-fit: cover;
 }
 
 .parcnat img
 {
     height: 375px;
-    width: 320px;
+    width: 310px;
     object-fit: cover;
 }
 
 .ilefrioul img, .notredame img
 {
-    height: 110px;
+    height: 130px;
+    width: 310px
     
 }
 
@@ -351,7 +358,7 @@ color: #DEEBFF;
     padding: 9px 9px 9px 9px;
 }
 
-.articleactivites figcaption
+.articleactivites caption
 {
     margin-left: 10px;
     margin-top: 10px;
@@ -377,39 +384,51 @@ color: #DEEBFF;
 }
 .fa-heart
 {
-    position: absolute;
-    top: 233px;
-    left: 325px;
+    position: relative;
+    left: 47px;
+    top: 2px;
 }
 
 .fa-dog
 {
-    position: absolute;
-    top: 233px;
-    left: 484px;
+    position: relative;
+    left: 49px;
+    top: 2px;
 }
 
 .fa-child
 {
-    position: absolute; 
-    top: 233px;
-    left: 198px;
+    position: relative;
+    left: 41px;
+    top: 2px;
 }
 
 .fa-money-bill-wave
 {
-    position: absolute; 
-    top: 233px;
-    left: 35px;
-}
-
-.spanfiltre
-{
-    padding-right: 20px;
+    position: relative;
+    left: 49px;
+    top: 2px;
 }
 
 
 .animal:hover, .eco:hover, .family:hover, .romantic:hover
 {
     background-color: #DEEBFF;
+}
+
+.fa-chart-line
+{
+    padding-right: 20px;
+}
+
+#global
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%
+}
+
+.margin
+{
+    margin-left: 20px;
 }
