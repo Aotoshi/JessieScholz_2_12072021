@@ -1,0 +1,16 @@
+@media all and (max-width:767px) {
+    .articleactivites
+    {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        flex-wrap: nowrap;
+    }
+
+    #logements
+{
+    display:flex;
+    flex-direction: column-reverse;
+
+}
+}
