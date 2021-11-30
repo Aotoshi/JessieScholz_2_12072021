@@ -5,12 +5,64 @@
         flex-direction: column;
         width: 100%;
         flex-wrap: nowrap;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
     }
 
     #logements
-{
+    {
     display:flex;
     flex-direction: column-reverse;
+    }
 
-}
+    .hebergement
+    {
+        display: flex;
+        width: 100%;
+        background-color: white;
+        border: none;
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+    }
+
+    .hebergement img
+    {
+        width: 350px;
+        height: 150px;
+    }
+
+    .populaires
+    {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        background-color: #F2F2F2;
+        border-radius: 0%;
+        justify-content: center;
+    }
+   
+    .populaires img
+    {
+        width: 250px;
+        height: 150px
+    }
+
+    .articleactivites img
+    {
+        width: 350px;
+        height: 150px;
+    }
+
+    footer
+    {
+        flex-direction: column;
+    }
+
+    .fa-chart-line
+    {
+        float: right;
+    }
+
 }
