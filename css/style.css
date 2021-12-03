@@ -8,6 +8,11 @@
     src: url(font/Raleway-Medium.ttf);
 }
 
+html
+{
+    width: 99%
+}
+
 h1, h2, h3, h4
 {
         font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
@@ -75,7 +80,6 @@ figure
    background-color: white;
    margin: 20px;
    box-shadow: 3px 3px 3px 3px #d9d9d9;
-   max-width: 500px;
 }
 
 .hebergement img
@@ -148,7 +152,6 @@ input
     margin-left: 20px;
     margin-right: 10px;
     display: inline-block;
-
 }
 
 span
@@ -207,7 +210,6 @@ span
 
 nav
 {
-    position:relative;
     display: inline;
     float: right;
 }

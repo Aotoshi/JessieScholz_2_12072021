@@ -1,4 +1,8 @@
 @media all and (max-width:767px) {
+    html
+    {
+        width: 99%;
+    }
     .articleactivites
     {
         display: flex;
@@ -58,6 +62,9 @@
     footer
     {
         flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        padding: auto;
     }
 
     .fa-chart-line
