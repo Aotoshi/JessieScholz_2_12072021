@@ -12,7 +12,11 @@ html
 {
     width: 99%
 }
-
+.topdiv
+{
+    margin: auto;
+    padding: auto;
+}
 h1, h2, h3, h4
 {
         font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
@@ -20,9 +24,19 @@ h1, h2, h3, h4
         width: 100%;
 }
 
-h2, h3, h4
+h2
 {
-    margin-left: 20px;
+    margin-left: 50px;
+}
+
+h3
+{
+    margin-left: 30px;
+}
+
+h4
+{
+    margin-left: 100px;
 }
 
 p
@@ -204,10 +218,9 @@ span
 .more
 {
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
-    font-size: large;
+    font-size: larger;
     font-weight: bold;
-    margin-left: 20px;
-    margin-bottom: 20px;
+    margin-left: 50px;
 }
 
 .logo
