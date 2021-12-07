@@ -170,8 +170,13 @@ input
 span
 {
     font-family: 'Raleway-Medium', Arial, Helvetica, sans-serif;
-    font-size: medium;
-    margin-top: 1em;  
+    font-size: large;
+    margin-top: 10px 
+}
+
+.infospan
+{
+    width: 100%;
 }
 
 
@@ -221,6 +226,7 @@ span
     font-size: larger;
     font-weight: bold;
     margin-left: 50px;
+    margin-bottom: 15px;
 }
 
 .logo
@@ -296,6 +302,7 @@ footer
     border-radius: 10px;
     background-color: #F2F2F2;
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
+    margin-top: 10px;
 }
 
 
