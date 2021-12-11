@@ -24,6 +24,7 @@ h1, h2, h3, h4
         width: 100%;
 }
 
+
 h2
 {
     margin-left: 50px;
@@ -42,8 +43,8 @@ h4
 p
 {
     font-family: 'Raleway-Medium', Arial, Helvetica, sans-serif;
-    font-size: medium;
-    margin-top: 1em;
+    font-size: large;
+    margin-top: 1px
 }
 
 ul
@@ -89,7 +90,7 @@ em
 figure
 {
    border: 5px solid white; 
-   border-radius: 10px;
+   border-radius: 30px;
    background-color: white;
    margin: 20px;
    box-shadow: 3px 3px 3px 3px #d9d9d9;
@@ -99,8 +100,8 @@ figure
 {
     width: 350px;
     height: 180px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     object-fit: cover;
 }
 
@@ -108,8 +109,8 @@ figure
 {
     width: 310px;
     height: 170px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     object-fit: cover;
 }
 
@@ -160,11 +161,11 @@ input
 
 .info
 {
-    font-size: 1em;
+    font-size: medium;
     color:#0065FC;
     margin-left: 20px;
     margin-right: 10px;
-    display: inline-block;
+    margin-bottom: 20px;
 }
 
 span
@@ -172,6 +173,16 @@ span
     font-family: 'Raleway-Medium', Arial, Helvetica, sans-serif;
     font-size: large;
     margin-top: 10px 
+}
+
+.blue, .grey
+{
+    margin-bottom: 20px;
+}
+
+.starpop
+{
+    padding-top: 50px;
 }
 
 .infospan
@@ -197,6 +208,7 @@ span
     font-weight: bold;
     color: black;
     margin-right: 20px;
+    margin-top: 10px;
 }
 
 .chartline
@@ -208,7 +220,7 @@ span
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
     font-size: large;
     font-weight: bold;
-    margin-top: 70px;
+    margin-top: 80px;
     margin-bottom: 30px;
     margin-left: 20px;
     display: block;
@@ -277,8 +289,8 @@ footer
     flex-wrap:wrap;
     width: 70%;
     margin: 10px;
-    border: 10px solid #F2F2F2;
-    border-radius: 10px;
+    border: 1px solid #F2F2F2;
+    border-radius: 30px;
     background-color: #F2F2F2;
     margin-right: 50px;
     margin-left: 20px;
@@ -299,7 +311,7 @@ footer
     width: 100%;
     flex-wrap: wrap;
     border: 1px solid #F2F2F2;
-    border-radius: 10px;
+    border-radius: 30px;
     background-color: #F2F2F2;
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
     margin-top: 10px;
@@ -331,16 +343,16 @@ footer
 .figpop img
 {
     width: 220px;
-    height: 190px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    height: 205px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
     object-fit: cover;
 }
 
 .articleactivites figure
 {
     border: 5px solid white; 
-   border-radius: 10px;
+   border-radius: 30px;
    background-color: white;
    box-shadow:3px 3px 3px 3px#F2F2F2 ;
 }
@@ -455,6 +467,6 @@ color: #DEEBFF;
 .nuit
 {
     display: block;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
