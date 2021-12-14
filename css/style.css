@@ -12,18 +12,19 @@ html
 {
     width: 99%
 }
+
 .topdiv
 {
     margin: auto;
     padding: auto;
 }
+
 h1, h2, h3, h4
 {
         font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
         font-size: x-large;
         width: 100%;
 }
-
 
 h2
 {
@@ -64,12 +65,13 @@ li
 {
     color: #0065FC;
     font-weight: bold;
+    font-size: large;
 }
 
 a
 {
     font-family: 'Raleway-Medium', Arial, Helvetica, sans-serif;
-    font-size: medium;
+    font-size: large;
     text-decoration: none;
     color:black ;
 }
@@ -99,7 +101,7 @@ figure
 .hebergement img
 {
     width: 350px;
-    height: 180px;
+    height: 190px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     object-fit: cover;
@@ -239,12 +241,13 @@ span
     font-weight: bold;
     margin-left: 50px;
     margin-bottom: 15px;
+    padding-top: 10px;
 }
 
 .logo
 {
-    width:100px;
-    height:47px;
+    width:200px;
+    height:98px;
     margin-top:25px;
     margin-left: 20px;
 }
@@ -343,7 +346,7 @@ footer
 .figpop img
 {
     width: 220px;
-    height: 205px;
+    height: 210px;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     object-fit: cover;
@@ -351,7 +354,7 @@ footer
 
 .articleactivites figure
 {
-    border: 5px solid white; 
+    border: 6px solid white; 
    border-radius: 30px;
    background-color: white;
    box-shadow:3px 3px 3px 3px#F2F2F2 ;
@@ -371,22 +374,22 @@ color: #DEEBFF;
 
 .vieuxport img
 {
-    height: 375px;
-    width: 310px;
+    height: 400px;
+    width: 350px;
     object-fit: cover;
 }
 
 .parcnat img
 {
-    height: 375px;
-    width: 310px;
+    height: 400px;
+    width: 350px;
     object-fit: cover;
 }
 
-.ilefrioul img, .notredame img
+.ilefrioul img, .notredame img, .fortpomegues img, .parclongchamp img
 {
-    height: 130px;
-    width: 310px
+    height: 155px;
+    width: 350px
     
 }
 
@@ -469,4 +472,9 @@ color: #DEEBFF;
     display: block;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.articleactivites figcaption
+{
+    margin: 5px;
 }
