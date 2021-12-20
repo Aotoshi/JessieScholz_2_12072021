@@ -79,7 +79,8 @@ a
 nav a:hover
 {
     color: #0065FC;
-    text-decoration-line: overline;
+    border-top: #0065FC 2px solid;
+    padding-top: 10px;
 }
 
 em
