@@ -10,13 +10,14 @@
 
 html
 {
-    width: 99%
+    width: 100%
 }
 
 .topdiv
 {
-    margin: auto;
-    padding: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 h1, h2, h3, h4
@@ -38,7 +39,7 @@ h3
 
 h4
 {
-    margin-left: 100px;
+    margin-left: 40px;
 }
 
 p
@@ -58,14 +59,19 @@ li
 {
     font-family: 'Raleway-Medium', Arial, Helvetica, sans-serif;
     font-size: medium;
-    margin: 10px;
+    margin-top:  10px;
+    margin-right: 50px;
 }
 
-.signup
+.signup a
 {
+    display: flex;
     color: #0065FC;
     font-weight: bold;
     font-size: large;
+    flex-wrap: nowrap;
+    margin-right: 50px;
+    margin-top: 34px;
 }
 
 a
@@ -76,11 +82,11 @@ a
     color:black ;
 }
 
-nav a:hover
+#menu a:hover
 {
     color: #0065FC;
-    border-top: #0065FC 2px solid;
-    padding-top: 10px;
+    border-top: #0065FC 3px solid;
+    padding-top: 40px;
 }
 
 em
@@ -117,6 +123,11 @@ figure
     object-fit: cover;
 }
 
+.vieuxport
+{
+    margin-left: 20px;
+}
+
 .cannebiere, .port, .mouettes, .mer, .panier, .amina
 {
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
@@ -136,6 +147,14 @@ button[type="submit"]
     border: solid transparent;
     color: white;
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
+    font-size: medium;
+    height: 44px;
+    overflow: auto;
+}
+.fa-search
+{
+    display: none;
+    visibility: hidden;
 }
 
 input
@@ -146,27 +165,29 @@ input
     border: 1px solid #F2F2F2;
     float: left;
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
+    overflow: auto;
 }
 
 .mapmarker
 {
     font-size: 1em;
     text-align: center;
-    height: 34px;
+    height: 43px;
     width: 50px;
     background-color: #F2F2F2;
     border-top: 1px solid #F2F2F2;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     float: left;
-    margin-left: 20px;
+    margin-left: 30px;
+    overflow: auto;
 }
 
 .info
 {
-    font-size: medium;
+    font-size: large;
     color:#0065FC;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-right: 10px;
     margin-bottom: 20px;
 }
@@ -225,7 +246,7 @@ span
     font-weight: bold;
     margin-top: 80px;
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 40px;
     display: block;
 }
 
@@ -250,23 +271,32 @@ span
     width:200px;
     height:98px;
     margin-top:25px;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 nav
 {
-    display: inline;
+    display: flex;
     float: right;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
-footer
+.footer
 {
     background-color: #F2F2F2;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
+    left: 0;
+    right: 0;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    width: auto;
+}
+
+.footer ul
+{
+    margin-right: 200px ;
 }
 
 #menu
@@ -330,7 +360,7 @@ footer
     flex-wrap: wrap;
     font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
     margin-bottom: 50px;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .figpop
@@ -359,6 +389,7 @@ footer
    border-radius: 30px;
    background-color: white;
    box-shadow:3px 3px 3px 3px#F2F2F2 ;
+   margin-bottom: 38px;
 }
 
 .grey
@@ -373,43 +404,35 @@ color: #DEEBFF;
     display: inline;
 }
 
-.vieuxport img
+.vieuxport img, .parcnat img
 {
-    height: 400px;
-    width: 350px;
-    object-fit: cover;
-}
-
-.parcnat img
-{
-    height: 400px;
-    width: 350px;
+    height: 550px;
+    width: 420px;
     object-fit: cover;
 }
 
 .ilefrioul img, .notredame img, .fortpomegues img, .parclongchamp img
 {
-    height: 155px;
-    width: 350px
-    
+    height: 175px;
+    width: 400px;
+    object-fit: cover;
 }
 
-.small
+.fortpomegues img
 {
-    display: flex;
-    flex-direction: column;
+    height: 280px ;
+    width: 400px;
+    object-fit: cover;
+}
+
+.notredame img, .parclongchamp img
+{
+    height: 228px;
 }
 
 .centre
 {
-    padding: 9px 9px 9px 9px;
-}
-
-.articleactivites caption
-{
-    margin-left: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 11px 11px 11px 11px;
 }
 
 .economyborder, .familyborder, .romanticborder, .animalborder
@@ -465,7 +488,7 @@ color: #DEEBFF;
 
 .margin
 {
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .nuit
@@ -477,5 +500,13 @@ color: #DEEBFF;
 
 .articleactivites figcaption
 {
-    margin: 5px;
+    margin: 10px;
 }
+
+#searchbar
+{
+    height: 40px;
+    width: 15%;
+    font-size: medium;
+}
+
