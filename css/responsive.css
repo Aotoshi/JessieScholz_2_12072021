@@ -41,7 +41,7 @@
     .hebergement
     {
         display: flex;
-        width: 100%;
+        width: 90%;
         background-color: white;
         border: none;
         margin: auto;
@@ -49,10 +49,15 @@
         justify-content: center;
     }
 
+    .hebergement figure
+    {
+        width: 100%;
+        margin-left: 0px;
+    }
+
     .hebergement img
     {
-        width: 350px;
-        height: 150px;
+     width: 100%;
     }
 
     .populaires
@@ -100,12 +105,17 @@
 
     .articleactivites figure
     {
-        width: 100%;
+        width: 85%
     }
 
     .articleactivites img
     {
         width: 100%;
+    }
+
+    .vieuxport
+    {
+        margin-left: 0px;
     }
 
     nav
@@ -180,6 +190,18 @@
         top: 0px; left: 270px
     }
     
-
-
+    .filtres
+    {
+        display: flex;
+        justify-content:baseline;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    
+    .spanfiltre
+    {
+        display: block;
+        margin-right: 50px;
+    }
+    
 }
