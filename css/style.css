@@ -447,6 +447,7 @@ color: #DEEBFF;
 {
     border: 3px solid #F2F2F2;
     padding: 10px;
+    padding-left: 0px;
     border-radius: 50px;
     transition: all .5s linear;
     border-width: 2px;
