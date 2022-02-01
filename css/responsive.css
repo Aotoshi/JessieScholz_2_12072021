@@ -26,10 +26,14 @@
         text-transform: capitalize; 
     }
     
-    .fa-search
+    .submit
     {
-        visibility: visible;
-        display: block;
+        display: none;
+    }
+
+    .submitmobile
+    {
+        display: inline;
     }
 
     #logements
@@ -194,11 +198,6 @@
     {
         display: block;
         margin-right: 50px;
-    }
-
-    .eco, .family, .romantic, .animal
-    {
-        padding: 0px
     }
     
 }
