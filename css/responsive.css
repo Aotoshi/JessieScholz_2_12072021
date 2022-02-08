@@ -20,12 +20,6 @@
         width: 50%;
     }
     
-    button[type="submit"]
-    { 
-        text-indent: -9000px;
-        text-transform: capitalize; 
-    }
-    
     .submit
     {
         display: none;
@@ -55,8 +49,8 @@
 
     .hebergement figure
     {
-        width: 300px;
-        margin-left: 0px;
+        width: 330px;
+        margin-left: 20px;
     }
 
     .hebergement img
@@ -75,8 +69,10 @@
     
     .populaires figure
     {
-        margin-left: 10px;
+        margin-left: 0px;
+        width: 95%
     }
+    
     .articleactivites img
     {
         width: 350px;
@@ -103,19 +99,21 @@
 
     .figpop
     {
-        width: 90%
+        width: 100%;
     }
     
     .figpop img
     {
-        width: 190px;
-        height: 210px;
+        width: 130px;
+        height: 180px;
         object-fit: cover;
     }
 
     .articleactivites figure
     {
-        width: 85%
+        width: 340px;
+        margin-left: 1px
+
     }
 
     .articleactivites img
@@ -200,4 +198,78 @@
         margin-right: 50px;
     }
     
+    .fa-search
+    {
+        background-color:#0065FC;
+        border-right: 5px solid #0065FC;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        outline: transparent;
+        border: solid transparent;
+        color: white;
+        font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
+        font-size: large;
+        height: 44px;
+    }
+    
+    .more
+    {
+        margin-right: 50px;
+    }
+
+    h4
+    {
+        margin-left: 60px;
+    }
+    
+    
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+    #logements
+    {
+        display: flex;
+        flex-direction: column-reverse
+    }
+    
+    .hebergement
+    {
+        width: 100%;
+    }
+
+    .populaires
+    {
+        width: 95%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .populaires figure 
+    {
+        width: 600px;
+        height: 300px;
+        margin: 60px;
+        margin-left: 235px;
+    }
+
+    .populaires img 
+    {
+        width: 350px;
+        height: 300px;
+    }
+
+    .articleactivites
+    {
+        margin-left: 40px;
+    }
+
+    .fa-chart-line
+    {
+        margin-left: 30px
+    }
+
+    h3
+    {
+        margin-left: 50px;
+    }
 }
