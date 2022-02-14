@@ -28,6 +28,19 @@
     .submitmobile
     {
         display: inline;
+        float: left;
+        height: 34px;
+        background-color:#0065FC;
+        border-right: 5px solid #0065FC;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+        outline: transparent;
+        border: solid transparent;
+        color: white;
+        font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
+        font-size: medium;
+        height: 44px;
+        overflow: auto;
     }
 
     #logements
@@ -196,20 +209,6 @@
     {
         display: block;
         margin-right: 50px;
-    }
-    
-    .fa-search
-    {
-        background-color:#0065FC;
-        border-right: 5px solid #0065FC;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        outline: transparent;
-        border: solid transparent;
-        color: white;
-        font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
-        font-size: large;
-        height: 44px;
     }
     
     .more
