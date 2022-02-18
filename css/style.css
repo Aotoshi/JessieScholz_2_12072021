@@ -24,7 +24,11 @@ h1, h2, h3, h4
 {
         font-family: 'Raleway-Bold', Arial, Helvetica, sans-serif;
         font-size: x-large;
-        width: 100%;
+}
+
+h2, h3, h4
+{
+    width: 100%;
 }
 
 h2
@@ -292,6 +296,8 @@ nav
     flex-wrap: nowrap;
     justify-content: flex-start;
     width: 100%;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .footer ul
