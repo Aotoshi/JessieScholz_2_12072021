@@ -3,7 +3,10 @@
     {
         width: auto;
     }
-
+    .eco, .family, .romantic, .animal {
+        padding:0px;
+        margin-right: 10px;
+    }
     .articleactivites
     {
         display: flex;
@@ -13,6 +16,10 @@
         justify-content: center;
         margin: auto;
         padding: auto;
+    }
+
+    h2{
+        margin-left: 19px;
     }
 
     #searchbar
@@ -57,13 +64,13 @@
         border: none;
         margin: auto;
         padding: auto;
-        justify-content: center;
+        margin-left: 0px;
     }
 
     .hebergement figure
     {
         width: 330px;
-        margin-left: 20px;
+        margin-left: 10px;
     }
 
     .hebergement img
@@ -127,11 +134,6 @@
         width: 340px;
         margin-left: 1px
 
-    }
-
-    .articleactivites img
-    {
-        width: 100%;
     }
 
     .vieuxport
@@ -208,17 +210,16 @@
     .spanfiltre
     {
         display: block;
-        margin-right: 50px;
+        width: 100%;
     }
-    
-    .more
-    {
-        margin-right: 50px;
+
+    .more {
+        margin-left: 5px;
     }
 
     h4
     {
-        margin-left: 60px;
+        margin-left: 10px;
     }
     
     
@@ -234,6 +235,7 @@
     .hebergement
     {
         width: 100%;
+        margin-left: 0px;
     }
 
     .populaires
@@ -241,6 +243,8 @@
         width: 95%;
         flex-direction: row;
         flex-wrap: wrap;
+        background: none;
+        border: none;
     }
     
     .populaires figure 
@@ -270,5 +274,57 @@
     h3
     {
         margin-left: 50px;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait){
+    #logements
+    {
+    display:flex;
+    flex-direction: column-reverse;
+    }
+
+    .footer ul {
+        margin-right: 0px;
+    }
+
+    .populaires img {
+        width: 350px;
+        height: 280px;
+    }
+
+    .populaires {
+        background: none;
+        border: none
+    }
+
+    .hebergement {
+        width: 100%;
+        margin: 0px;
+    }
+
+    .hebergement img {
+        width: 500px;
+        height: 300px;
+    }
+
+    .articleactivites img
+    {
+        width: 500px;
+        height: 300px;
+    }
+
+    .articleactivites
+    {
+        justify-content: center;
+    }
+
+    h1, h2, h3, h4 {
+        width: auto;
+        font-size: xx-large;
+    }
+
+    .fa-chart-line{
+        margin-left: 20px;
     }
 }
