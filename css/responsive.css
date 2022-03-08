@@ -371,3 +371,89 @@
     }
 }
 
+@media only screen and (min-width : 1680px){
+
+    .hebergement{
+        width: 65%;
+    }
+
+    .hebergement img 
+    {
+        width: 300px;
+
+    }
+
+    .articleactivites
+    {
+        width: 100%;
+    }
+
+    .vieuxport img, .parcnat img{
+        width: 360px
+    }
+
+    .ilefrioul img, .notredame img, .fortpomegues img, .parclongchamp img{
+        width: 340px;
+    }
+}
+
+@media only screen and (min-width : 1440px){
+    .hebergement{
+        width: 65%;
+    }
+
+    .hebergement img 
+    {
+        width: 250px;
+
+    }
+
+    .populaires img {
+        width: 150px;
+    }
+
+    .articleactivites
+    {
+        width: 100%;
+    }
+
+    .vieuxport img, .parcnat img{
+        width: 310px
+    }
+
+    .ilefrioul img, .notredame img, .fortpomegues img, .parclongchamp img{
+        width: 280px;
+    }
+}
+
+@media only screen and (min-width : 2560px){
+    .hebergement
+    {
+        width: 70%;
+    }
+    
+    .hebergement img 
+        {
+            width: 500px;
+            height: 300px;
+
+        }
+
+    .populaires img 
+        {
+            width: 420px;
+            height: 283px;
+        }
+
+    .vieuxport img, .parcnat img
+        {
+            width: 600px;
+            height:800px
+        }
+    
+    .ilefrioul img, .notredame img, .fortpomegues img, .parclongchamp img
+        {
+            width: 550px;
+            height: 350px;
+        }
+}
