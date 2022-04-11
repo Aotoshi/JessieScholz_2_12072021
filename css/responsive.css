@@ -253,7 +253,7 @@
     .hebergement
     {
         width: 100%;
-        margin-left: 0px;
+        margin-left: 15px;
     }
 
     .populaires
@@ -348,6 +348,11 @@
         font-size: xx-large;
     }
 
+    h4{
+        padding-right: 100px;
+        padding-left: 40px;
+    }
+
     .fa-chart-line{
         margin-left: 20px;
     }
@@ -368,6 +373,38 @@
     #searchbar
     {
         width: 40%;
+    }
+}
+
+@media only screen and (min-width : 1180px) and (max-width : 1181px) and (orientation : landscape){
+
+    .hebergement{
+        width: 55%;
+    }
+
+    .hebergement img{
+        width: 270px;
+        height: 148px
+    }
+
+    .populaires img{
+        width: 200px;
+        height: 290px;
+    }
+}
+
+@media only screen and (min-width : 1366px) and (max-width : 1367px) and (orientation : landscape){
+
+    .hebergement{
+        width:60%;
+    }
+
+    .hebergement img{
+        height: 150px;
+    }
+
+    .populaires img{
+        height: 292px;
     }
 }
 
@@ -460,4 +497,4 @@
                 width: 540px;
                 height: 350px;
             }
-}
+        }
