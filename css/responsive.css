@@ -298,7 +298,7 @@
 
 }
 
-@media only screen and (min-width : 1024px) and (max-width : 1024px) and (orientation : landscape){
+@media only screen and (min-width : 1024px) and (max-width : 1024px){
     #logements
     {
         display: flex;
@@ -309,6 +309,8 @@
     {
         width: 100%;
         margin-left: 15px;
+        background-color: #F2F2F2;
+        border-radius: 0%;
     }
 
     .populaires
@@ -355,7 +357,7 @@
     }
 }
 
-@media all and (min-width : 768px) and (max-width : 768px) and (orientation : portrait){
+@media all and (min-width : 768px) and (max-width : 768px){
     #logements
     {
     display:flex;
@@ -431,7 +433,7 @@
     }
 }
 
-@media only screen and (min-width : 1180px) and (max-width : 1180px) and (orientation : landscape){
+@media only screen and (min-width : 1180px) and (max-width : 1180px){
 
     .hebergement{
         width: 55%;
@@ -458,7 +460,7 @@
 
 }
 
-@media only screen and (min-width: 820px) and (max-width: 820px) and (orientation: portrait){
+@media only screen and (min-width: 820px) and (max-width: 820px){
     .hebergement{
         width: 100%;
         background-color: white;
@@ -506,12 +508,12 @@
     }
 
     .articleactivites figure{
-        margin-left: 150px
+        margin-left: 150px;
     }
 
 }
 
-@media only screen and (min-width : 1366px) and (max-width : 1366px) and (orientation : landscape){
+@media only screen and (min-width : 1366px) and (max-width : 1366px){
 
     .hebergement{
         width:60%;
@@ -662,6 +664,10 @@
             .ilefrioul img, .notredame img, .fortpomegues img, .parclongchamp img{
                 width: 240px;
             }
+
+            .articleactivites figure{
+                margin-left: 15px;
+            }
         }
 
         @media only screen and (min-width : 1500px) and (max-width : 1500px){
@@ -705,4 +711,43 @@
                 width: 250px;
             }
 
+        }
+
+        @media only screen and (min-width : 800px) and (max-width : 800px){
+            .hebergement{
+                width: 100%;
+                background-color: white;
+                border: none;
+            }
+
+            .hebergement img{
+                width: 500px;
+            }
+
+            .populaires
+            {
+                width: 150%;
+                background-color: #F2F2F2;
+                border-radius: 0%;
+            }
+
+            .populaires img{
+                width: 280px;
+            }
+            .vieuxport{
+                margin-left: 0px;
+            }
+            
+            .vieuxport, .parcnat, .fortpomegues, .ilefrioul, .notredame, .parclongchamp{
+                margin-left: 100px;
+            }
+
+            .articleactivites img{
+                height: 300px;
+                width: 550px;
+            }
+
+            .footer ul{
+                margin: 5px;
+            }
         }
