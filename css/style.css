@@ -283,6 +283,7 @@ span
     height:98px;
     margin-top:25px;
     margin-left: 30px;
+    object-fit: cover;
 }
 
 nav

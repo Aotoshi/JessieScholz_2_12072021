@@ -1,8 +1,4 @@
 @media all and (max-width:767px) {
-    html
-    {
-        width: auto;
-    }
     
     .eco, .family, .romantic, .animal {
         padding:0px;
@@ -238,12 +234,71 @@
     h4
     {
         margin-left: 10px;
-    }
-    
-    
+    }   
 }
 
-@media only screen and (min-width : 768px) and (max-width : 1024px) and (orientation : landscape){
+@media only screen and (max-width: 414px){
+        .hebergement{
+            margin-left: 20px
+        }
+
+        .articleactivites{
+            margin-left: 20px;
+        }
+}
+
+@media only screen and (max-width: 393px){
+        .hebergement{
+            margin-left: 10px
+        }
+
+        .articleactivites{
+            margin-left: 10px;
+        }
+}
+
+@media only screen and (max-width: 375px){
+    .hebergement{
+        margin-left: 0px;
+    }
+
+    .hebergement figure{
+        width: 320px;
+    }
+
+    .articleactivites figure{
+        width: 320px;
+    }
+
+    .articleactivites img{
+        width: 320px;
+    }
+
+    .populaires figure{
+        width: 330px;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .hebergement{
+        margin-left: 0px;
+    }
+
+    .hebergement figure{
+        width: 320px;
+    }
+
+    .articleactivites figure{
+        width: 320px;
+    }
+
+    .articleactivites img{
+        width: 320px;
+    }
+
+}
+
+@media only screen and (min-width : 1024px) and (max-width : 1024px) and (orientation : landscape){
     #logements
     {
         display: flex;
@@ -300,7 +355,7 @@
     }
 }
 
-@media all and (min-width : 768px) and (max-width : 1024px) and (orientation : portrait){
+@media all and (min-width : 768px) and (max-width : 768px) and (orientation : portrait){
     #logements
     {
     display:flex;
@@ -318,7 +373,7 @@
 
     .populaires {
         background: none;
-        border: none
+        border: none;
     }
 
     .hebergement {
@@ -376,7 +431,7 @@
     }
 }
 
-@media only screen and (min-width : 1180px) and (max-width : 1181px) and (orientation : landscape){
+@media only screen and (min-width : 1180px) and (max-width : 1180px) and (orientation : landscape){
 
     .hebergement{
         width: 55%;
@@ -391,9 +446,72 @@
         width: 200px;
         height: 290px;
     }
+
+    .articleactivites{
+        width: 100%;
+    }
+
+    .vieuxport, .parcnat{
+        margin-left: 70px;
+        margin-right: 80px;
+    }
+
 }
 
-@media only screen and (min-width : 1366px) and (max-width : 1367px) and (orientation : landscape){
+@media only screen and (min-width: 820px) and (max-width: 820px) and (orientation: portrait){
+    .hebergement{
+        width: 100%;
+        background-color: white;
+        border: none;
+        margin: auto;
+    }
+
+    .hebergement img{
+        width: 500px;
+        height: 300px;
+    }
+
+    .animal{
+        margin-left: 20px;
+    }
+
+
+    .populaires
+    {
+        width: 149%;
+        background-color: #F2F2F2;
+        border-radius: 0%;
+    }
+
+    .populaires img{
+        width: 300px;
+    }
+
+    .vieuxport, .parcnat{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .footer{
+        width: 100%;
+    }
+
+    .footer ul{ 
+        margin-right: 0px
+    }
+
+    .articleactivites img{
+        width: 500px;
+        height: 300px;
+    }
+
+    .articleactivites figure{
+        margin-left: 150px
+    }
+
+}
+
+@media only screen and (min-width : 1366px) and (max-width : 1366px) and (orientation : landscape){
 
     .hebergement{
         width:60%;
@@ -408,7 +526,7 @@
     }
 }
 
-@media only screen and (min-width : 1680px) and (max-width : 1681px){
+@media only screen and (min-width : 1680px) and (max-width : 1680px){
 
     .hebergement
     {
@@ -437,7 +555,7 @@
     }
 }
 
-@media all and (min-width : 1440px) and (max-width : 1441px){
+@media all and (min-width : 1440px) and (max-width : 1440px){
     .hebergement
     {
         width: 65%;
@@ -521,4 +639,70 @@
             .ilefrioul img, .notredame img, .fortpomegues img, .parclongchamp img{
                 width: 310px;
             }
+        }
+
+        @media only screen and (min-width : 1280px) and (max-width : 1280px){
+            .hebergement{
+                width:55% ;
+            }
+            
+            .hebergement img{
+                width: 270px;
+                height: 130px;
+            }
+
+            .populaires img{
+                height: 273px;
+            }
+
+            .vieuxport img, .parcnat img{
+                width: 270px    
+            }
+            
+            .ilefrioul img, .notredame img, .fortpomegues img, .parclongchamp img{
+                width: 240px;
+            }
+        }
+
+        @media only screen and (min-width : 1500px) and (max-width : 1500px){
+            
+            .hebergement{
+                width: 62%;
+            }
+             
+            .hebergement img {
+                height: 140px;
+            }
+            
+            .populaires img{
+                height: 283px;
+            }
+            
+            .vieuxport img, .parcnat img{
+                width: 330px    
+            }
+
+            .ilefrioul img, .notredame img, .fortpomegues img, .parclongchamp img{
+                width: 280px;
+            }
+
+        }
+
+        @media only screen and (min-width : 1366px) and (max-width : 1366px){
+            .hebergement{
+                width: 59% ;
+            } 
+
+            .hebergement img {
+                width: 250px;
+            }
+            
+            .vieuxport img, .parcnat img{
+                width: 300px    
+            }
+
+            .ilefrioul img, .notredame img, .fortpomegues img, .parclongchamp img{
+                width: 250px;
+            }
+
         }
