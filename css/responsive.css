@@ -200,8 +200,8 @@
 
     .logo
     {
-        width: 25%;
-        height: 25%;
+        width: 100px;
+        height: 46px;
         margin-top: 10px;
         margin-left: 10px;
     }
@@ -666,7 +666,11 @@
             }
 
             .articleactivites figure{
-                margin-left: 15px;
+                margin-left: 12px;
+            }
+
+            .vieuxport{
+                margin-left: 5px ;
             }
         }
 
