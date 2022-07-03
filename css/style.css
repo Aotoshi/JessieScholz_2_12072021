@@ -8,16 +8,16 @@
     src: url(font/Raleway-Medium.ttf);
 }
 
-html
-{
-    width: 100%
-}
-
 .topdiv
 {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+}
+
+body{
+    overflow-x: hidden;
+    position: relative;
 }
 
 h1, h2, h3, h4
